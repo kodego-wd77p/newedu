@@ -6,8 +6,8 @@
 
 <div class="container">
 
-    <button type="button" class="btn btn-primary mb-3" onclick='window.location.href = "/activity"'>Create New</button>
-    <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/teacher"'>Back</button>
+    <button type="button" class="btn btn-success mb-3" onclick='window.location.href = "/activity"'>Create New</button>
+    <button type="button" class="btn btn-primary mb-3" onclick='window.location.href = "/teacher"'>Back</button>
 
 
     <table class="table">

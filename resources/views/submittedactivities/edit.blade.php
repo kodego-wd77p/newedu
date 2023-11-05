@@ -57,7 +57,7 @@
 
 
         <button type="submit" class="btn btn-primary mb-3">Update</button>
-        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/allactivities"'>Cancel</button>
+        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/allactivity/{{ $submitted->id }}"'>Cancel</button>
 
     </form>
 

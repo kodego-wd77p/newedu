@@ -3,11 +3,12 @@
 @section('content')
 
 <div class="container">
+    
 
 <!-- <p><button type="button" class="btn btn-primary" onclick='window.location.href = "/activity"'>Submit Activity</button></p> -->
 <button type="button" class="btn btn-primary mb-3" onclick='window.location.href = "/teacher"'>Back</button>
    
-
+<div class="card">
     <table class="table">
         <thead>
             <tr>
@@ -32,8 +33,14 @@
         </tbody>
     </table>
 
-
-
+    <!-- message for deletion -->
+    @if(session('success'))
+    <h6 class="alert alert-success">
+        {{ session('success') }}
+    </h6>
+    @endif
+    
+    </div>
 </div>
 
 @endsection

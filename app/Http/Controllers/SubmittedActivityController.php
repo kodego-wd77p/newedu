@@ -138,6 +138,13 @@ class SubmittedActivityController extends Controller
      */
     public function destroy($id)
     {
-        ddd('delete');
+        // ddd('delete');
+        // DELETE FROM submittedactivities where id = 2
+
+        SubmittedActivity::where('id', $id)->delete();
+
+        return redirect('/allactivities')->with('success', 'Deleted Successfully!');
+
+
     }
 }
