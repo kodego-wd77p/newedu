@@ -2,15 +2,14 @@
 
 @section('content')
 
-<div class="container">
 
    
 
 <div class="container">
 
-<button type="button" class="btn btn-info mb-3" onclick='window.location.href = "/activity/{{ $activity->id }}/edit"'>Edit</button>
+<!-- <button type="button" class="btn btn-info mb-3" onclick='window.location.href = "/activity/{{ $activity->id }}/edit"'>Edit</button>
 
-<button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/activity/{{ $activity->id }}"'>Delete</button>
+<button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/activity/{{ $activity->id }}"'>Delete</button> -->
 
 
 

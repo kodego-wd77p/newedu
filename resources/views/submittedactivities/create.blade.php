@@ -55,7 +55,7 @@
 
 
         <button type="submit" class="btn btn-primary mb-3" onclick='window.location.href = "/allactivities"'>Submit</button>
-        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/activities"'>Cancel</button>
+        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/home"'>Cancel</button>
 
     </form>
 

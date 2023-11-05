@@ -138,6 +138,6 @@ class SubmittedActivityController extends Controller
      */
     public function destroy($id)
     {
-        //
+        ddd('delete');
     }
 }

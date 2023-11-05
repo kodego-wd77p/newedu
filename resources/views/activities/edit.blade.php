@@ -46,7 +46,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary mb-3">Update</button>
-        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/activities"'>Cancel</button>
+        <button type="button" class="btn btn-danger mb-3" onclick='window.location.href = "/activity/{{ $activity->id }}"'>Cancel</button>
     </form>
 
 

@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header"><center>{{ __('Dashboard') }}</center></div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -18,21 +18,23 @@
                     <center>{{ __('You are logged in,') }}</center>
                     <center> <strong>{{ Auth::user()->name }}</strong> </center>
                 </h3>
-                    <br>
+                    <hr>
 
-                <div class="btn">
-                <div class="card group">
+                <center>
                     <h4>View all the submitted activities by students and create new activities.</h4>
-                    <button type="button" class="btn btn-outline-success" onclick='window.location.href = "/teacher"'>Teachers</button>
-                    </div>
-
-                    <br>
+                    <button type="button" class="btn btn-dark" onclick='window.location.href = "/teacher"'>Teachers</button>
                     
-                    <div class="card group">
+
+                    <hr>
+                    
+                    
                         <h4>Submit activities</h4>
-                    <button type="button" class="btn btn-outline-success" onclick='window.location.href = "/allactivity"'>Students</button>
-                    </div>
-                </div>
+                    <button type="button" class="btn btn-dark" onclick='window.location.href = "/allactivity"'>Students</button>
+                </center>
+                
+                    
+                    
+                
 
 
                 </div>

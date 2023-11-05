@@ -5,7 +5,7 @@
 <div class="container">
 
 <!-- <p><button type="button" class="btn btn-primary" onclick='window.location.href = "/activity"'>Submit Activity</button></p> -->
-<button type="button" class="btn btn-danger" onclick='window.location.href = "/teacher"'>Back</button>
+<button type="button" class="btn btn-primary mb-3" onclick='window.location.href = "/teacher"'>Back</button>
    
 
     <table class="table">

@@ -5,6 +5,7 @@ use Illuminate\Support\Str;
 
 // CONTROLLERS
 use App\Http\Controllers\ActivityController;
+use App\Http\Controllers\StudentController;
 use App\Http\Controllers\SubmittedActivityController;
 
 
@@ -93,3 +94,12 @@ Route::put('/allactivity/{id}/edit', [SubmittedActivityController::class, 'updat
 Route::delete('/allactivity/{id}', [SubmittedActivityController::class, 'destroy']);
 
 ###
+
+
+## ACTIVITIES MVC
+
+// USE TO SHOW ALL THE HTML - NEED BLADE FILE
+Route::get('/students', [ActivityController::class, 'index']);
+
+// SHOW SPECIFIC ONE (use singular coz it only display one - best practice)  - NEED BLADE FILE
+Route::get('/student/{id}', [ActivityController::class, 'show']);

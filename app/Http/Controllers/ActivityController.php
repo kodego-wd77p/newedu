@@ -19,6 +19,10 @@ class ActivityController extends Controller
         return view('activities.index', [
             'activities' => $activities
         ]); 
+
+        // return view('students.index', [
+        //     'activities' => $activities
+        // ]); 
         
     }
 
@@ -29,6 +33,10 @@ class ActivityController extends Controller
         return view('activities.show', [
             'activity' => $activity
         ]);
+
+        // return view('students.show', [
+        //     'activity' => $activity
+        // ]);
         
         // ddd($activity);
     }

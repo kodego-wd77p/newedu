@@ -22,6 +22,25 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- CSS STYLING -->
+        <style>
+            body{
+                background-color: #008ABB;
+            }
+
+            div table{
+                background-color: whitesmoke;
+                border-radius: 30%;
+            }
+
+            a{
+                color: black;
+                font-weight: bold;
+            }
+        </style>
+
+
 </head>
 
 <body>
@@ -63,9 +82,8 @@
                         </li>
                         @endif
                         @else
+                        <li><a class="nav-link" href="/home">Home</a></li>
                         <li class="nav-item dropdown">
-
-                        <a class="nav-link" href="/home">Home</a>
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ Auth::user()->name }}

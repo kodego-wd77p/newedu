@@ -18,19 +18,22 @@
                     <center>{{ __('You are logged in,') }}</center>
                     <center> <strong>{{ Auth::user()->name }}</strong> </center>
                 </h3> -->
-                    <br>
 <center>
+
+<h3>Note: For teacher only.</h3>
+<button type="button" class="btn btn-primary" onclick='window.location.href = "/home"'>Back</button>
+
+<hr>
                 <div class="btn">
                 <div class="group">
                     <h4>All Submitted Activities</h4>
-                    <button type="button" class="btn btn-outline-primary" onclick='window.location.href = "/allactivities"'>View</button>
+                    <button type="button" class="btn btn-secondary" onclick='window.location.href = "/allactivities"'>View</button>
                     </div>
 
-                    <br>
-                    
+                    <hr>
                     <div class="group">
                         <h4>Create New Activities</h4>
-                    <button type="button" class="btn btn-outline-primary" onclick='window.location.href = "/activities"'>View</button>
+                    <button type="button" class="btn btn-secondary" onclick='window.location.href = "/activities"'>View</button>
                     </div>
                 </div>
 </center>
